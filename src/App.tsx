@@ -3,6 +3,7 @@ import PopulationChart from './api_information/PopulationChart'
 import usePrefectures from './api_information/usePrefectures'
 import './design/styles.css'
 import './design/background-color.css'
+import './styles.css';
 const App: React.FC = () => {
   const prefectures = usePrefectures()
   //const [PrefecturesName, setPrefecturesName] = useState<string[]>([]);
@@ -21,11 +22,9 @@ const App: React.FC = () => {
       }
     })
   }
-
-  // 選択された都道府県の名前のリストを作成
-
   return (
-    <div>
+    <div className="container">
+      <div className="content">
       <div className="title_waku">
         <h1 className="title">都道府県別の総人口推移グラフ</h1>
       </div>
@@ -57,6 +56,7 @@ const App: React.FC = () => {
           prefectureCodes={selectedPrefectures}
           prefectures={prefectures}
         />
+      </div>
       </div>
     </div>
   )
