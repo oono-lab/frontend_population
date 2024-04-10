@@ -1,1 +1,1 @@
-export const apiKey: string = 'YOUR API-KEY';
+export const apiKey: string = 'YOUR_API_KEY';
