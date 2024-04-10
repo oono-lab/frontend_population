@@ -36,7 +36,7 @@ const PopulationChart: React.FC<{
             `https://opendata.resas-portal.go.jp/api/v1/population/composition/perYear?cityCode=-&prefCode=${code}`,
             {
               headers: {
-                'X-API-KEY':process.env.API_URL;,
+                'X-API-KEY':process.env.API_URL,
               },
             }
           )
