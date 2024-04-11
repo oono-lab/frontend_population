@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 //import { apiKey } from './api_code_key';
-const apiKey = process.env.API_KEY!;
+const apiKey = process.env.API_KEY;
 const usePrefectures = () => {
   const [prefectures, setPrefectures] = useState<
     { code: string; name: string }[]
