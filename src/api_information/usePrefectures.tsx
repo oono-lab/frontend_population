@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import { apiKey } from './api_code_key';
+//import { apiKey } from './api_code_key';
+const apiKey = process.env.API_KEY!;
 const usePrefectures = () => {
   const [prefectures, setPrefectures] = useState<
     { code: string; name: string }[]
@@ -13,7 +14,7 @@ const usePrefectures = () => {
           'https://opendata.resas-portal.go.jp/api/v1/prefectures',
           {
             headers: {
-              'X-API-KEY': process.env.API_KEY,
+              'X-API-KEY': apiKey,
             },
           }
         )
