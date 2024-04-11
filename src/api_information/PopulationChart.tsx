@@ -4,7 +4,7 @@ import HighchartsReact from 'highcharts-react-official'
 import axios from 'axios'
 import UI from './../UI_information/UI'
 //import { apiKey } from './api_code_key';
-const apiKey = process.env.API_KEY!;
+const apiKey = process.env.API_KEY;
 interface PopulationData {
   year: number
   value: number
