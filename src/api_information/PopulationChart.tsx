@@ -3,7 +3,8 @@ import Highcharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
 import axios from 'axios'
 import UI from './../UI_information/UI'
-import { apiKey } from './api_code_key';
+//import { apiKey } from './api_code_key';
+const apiKey = process.env.API_KEY!;
 interface PopulationData {
   year: number
   value: number
@@ -36,7 +37,7 @@ const PopulationChart: React.FC<{
             `https://opendata.resas-portal.go.jp/api/v1/population/composition/perYear?cityCode=-&prefCode=${code}`,
             {
               headers: {
-                'X-API-KEY':process.env.API_KEY,
+                'X-API-KEY': apiKey ,
               },
             }
           )
