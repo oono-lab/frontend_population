@@ -6,7 +6,7 @@ https://frontend-population.vercel.app/
 
 2. `git clone https://github.com/oono-lab/frontend_population.git を入力`(ここでコマンドプロンプトのディレクトリ位置にfrontend_populationというファイルが作成されます。)
 
-3. `cd frontend_population を入力`(ここでコマンドプロンプトのディレクトリ位置をfrontend_populationに設定)
+3. `cd frontend_population を入力`(ここでコマンドプロンプトのディレクトリ名をfrontend_populationに変更)
 
 4. `npm install を入力`
 
