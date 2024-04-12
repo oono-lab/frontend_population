@@ -2,7 +2,9 @@
 ## サイト
 https://frontend-population.vercel.app/
 ## 起動方法
-1. <span style="background-color: #f0f0f0;">コマンドプロンプトを開きます。</span>
+1. ```plaintext
+コマンドプロンプトを開きます。
+```
 2. <span style="background-color: #f0f0f0;">git clone https://github.com/oono-lab/frontend_population.git</span>(ここでコマンドプロンプトのディレクトリ位置にfrontend_populationというファイルが作成されます。)
 
 # Getting Started with Create React App
