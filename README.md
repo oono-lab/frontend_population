@@ -4,7 +4,7 @@ https://frontend-population.vercel.app/
 ## 起動方法
 1. コマンドプロンプトを開きます。 he background color is `#ffffff` for light mode and `#000000` for dark mode.
 
-2. <span style="background-color: #f0f0f0;">git clone https://github.com/oono-lab/frontend_population.git</span>(ここでコマンドプロンプトのディレクトリ位置にfrontend_populationというファイルが作成されます。)
+2. <span style="background-color: #ffffff;">git clone https://github.com/oono-lab/frontend_population.git</span>(ここでコマンドプロンプトのディレクトリ位置にfrontend_populationというファイルが作成されます。)
 
 # Getting Started with Create React App
 
